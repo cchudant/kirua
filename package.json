@@ -1,0 +1,36 @@
+{
+  "name": "kirua",
+  "version": "1.0.0",
+  "description": "Discord bot using migi for a friend",
+  "main": "src",
+  "scripts": {
+    "start": "babel-node dev/playground.js",
+    "format": "prettier --write src/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SkyBeastMC/kirua.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "kirua"
+  ],
+  "author": "SkyBeastMC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SkyBeastMC/kirua/issues"
+  },
+  "homepage": "https://github.com/SkyBeastMC/kirua#readme",
+  "dependencies": {
+    "@popcorn.moe/migi": "^1.5.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.47",
+    "@babel/core": "^7.0.0-beta.47",
+    "@babel/node": "^7.0.0-beta.47",
+    "@babel/plugin-proposal-decorators": "^7.0.0-beta.47",
+    "@babel/preset-env": "^7.0.0-beta.47",
+    "prettier": "^1.12.1"
+  }
+}
