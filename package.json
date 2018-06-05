@@ -2,9 +2,9 @@
   "name": "kirua",
   "version": "1.0.0",
   "description": "Discord bot using migi for a friend",
-  "main": "src",
+  "main": "index.js",
   "scripts": {
-    "start": "babel-node dev/playground.js",
+    "start": "babel-node .",
     "format": "prettier --write src/**/*.js"
   },
   "repository": {
